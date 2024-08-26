@@ -33,7 +33,7 @@ nav {
     z-index: 1;
     backdrop-filter: blur(10px);
     width: 100%;
-    border-bottom: 1px solid rgb(100, 109, 85);
+    border-bottom: 1px solid #4f6944;
 }
 ul {
     display: flex;
@@ -44,8 +44,8 @@ ul {
 }
 ul input {
     height: 40px;
-    background-color: rgb(66, 77, 48);;
-    border: 1px solid rgb(100, 109, 85);
+    background-color: #253720;
+    border: 1px solid #4f6944;
     border-radius: 5px;
     padding: 8px;
     color: aliceblue;
@@ -83,6 +83,7 @@ article h2 {
     margin: 10px 0;
 }
 .container-img {
+    /* impede que a imagem ultrapasse o container */
     overflow: hidden;
     border-radius: 10px;
     position: relative;
